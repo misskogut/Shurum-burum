@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="theme-color" content="#ffd61f" />
+<title>Шурум-бурум — предсказание</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://shurum-burum-predskazanie.vercel.app/style.css" />
+</head>
+<body>
+<main class="page" id="page">
+<span class="shape shape-one" aria-hidden="true"></span><span class="shape shape-two" aria-hidden="true"></span><span class="shape shape-three" aria-hidden="true"></span><span class="shape shape-four" aria-hidden="true"></span>
+<header><button class="wordmark" id="restart" type="button">ШУРУМ-БУРУМ</button><span class="eyebrow">СЮРПРИЗ ДЛЯ ТЕБЯ</span></header>
+<section class="ritual">
+<div class="copy-slot"><div class="copy-panel intro" id="intro"><h1>ОТКРОЙ<br>СВОЁ ПЕЧЕНЬЕ</h1><p>Предсказанию уже спрятано внутри. Надломи печенье, чтобы его увидеть.</p></div><div class="copy-panel result" id="result" aria-hidden="true"><span class="result-kicker">ТВОЁ ПРЕДСКАЗАНИЕ</span></div></div>
+<div class="cookie-space"><button class="cookie idle" id="cookie" type="button" aria-label="Надломить печенье с предсказанием"><span class="cookie-half cookie-left"></span><span class="cookie-half cookie-right"></span><span class="fortune-paper" id="fortune-paper" aria-hidden="true"><span id="paper-fortune"></span></span></button></div>
+<div class="control-slot" aria-live="polite"><button class="primary-button" id="open" type="button">НАДЛОМИТЬ</button><span class="opening" id="opening" hidden>ПЕЧЕНЬЕ ОТКРЫВАЕТСЯ…</span><div class="actions" id="actions" hidden><button class="primary-button" id="again" type="button">ЕЩЁ ПРЕДСКАЗАНИЕ</button><a class="secondary-button" id="menu" href="#">ЗАГЛЯНУТЬ В МЕНЮ</a></div></div>
+</section>
+<footer>ШУРУМ-БУРУМ <i>ВНЬ!</i> • СТРИТ-ФУД С НАСТРОЕНИЕМ</footer>
+</main>
+<script src="https://shurum-burum-predskazanie.vercel.app/script.js"></script>
+<script src="/tracker.js"></script>
+</body></html>
