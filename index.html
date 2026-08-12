@@ -17,56 +17,23 @@
       <span class="shape shape-one" aria-hidden="true"></span>
       <span class="shape shape-two" aria-hidden="true"></span>
       <span class="shape shape-three" aria-hidden="true"></span>
-
       <header>
-        <button class="wordmark" id="restart" type="button" aria-label="Начать сначала">
-          <span>шурум</span><i>☝</i><span>бурум</span>
-        </button>
+        <button class="wordmark" id="restart" type="button" aria-label="Начать сначала"><span>шурум</span><i>☝</i><span>бурум</span></button>
         <span class="tag">ТВОЙ ЗНАК НА СЕГОДНЯ</span>
       </header>
-
       <section class="ritual">
         <div class="copy-slot">
-          <div class="copy-panel intro" id="intro">
-            <p class="mini-title">СЮРПРИЗ ДЛЯ ТЕБЯ</p>
-            <h1>ОТКРОЙ<br />СВОЁ ПЕЧЕНЬЕ</h1>
-            <p class="subline">Предсказание уже спрятано внутри. Надломи печенье, чтобы его увидеть.</p>
-          </div>
-
-          <div class="copy-panel result" id="result" aria-hidden="true">
-            <p class="mini-title">ТВОЁ ПРЕДСКАЗАНИЕ</p>
-          </div>
+          <div class="copy-panel intro" id="intro"><p class="mini-title">СЮРПРИЗ ДЛЯ ТЕБЯ</p><h1>ОТКРОЙ<br />СВОЁ ПЕЧЕНЬЕ</h1><p class="subline">Предсказание уже спрятано внутри. Надломи печенье, чтобы его увидеть.</p></div>
+          <div class="copy-panel result" id="result" aria-hidden="true"><p class="mini-title">ТВОЁ ПРЕДСКАЗАНИЕ</p></div>
         </div>
-
         <div class="cookie-space">
           <button class="cookie idle" id="cookie" type="button" aria-label="Надломить печенье с предсказанием">
             <span class="stage-shadow" aria-hidden="true"></span>
-
-            <span class="fortune-paper" id="fortune-paper" aria-hidden="true">
-              <span class="paper-fold paper-fold-left"></span>
-              <span class="paper-fold paper-fold-right"></span>
-              <span class="paper-text" id="paper-fortune"></span>
-            </span>
-
-            <span class="cookie-core" aria-hidden="true"></span>
-            <span class="photo-shell photo-shell-left" aria-hidden="true"></span>
-            <span class="photo-shell photo-shell-right" aria-hidden="true"></span>
-
-            <svg class="effects-art" viewBox="0 0 600 330" aria-hidden="true">
-              <g class="crumb-layer">
-                <path class="crumb crumb-one" d="M293 150l7-4 5 6-5 7-7-3Z" />
-                <path class="crumb crumb-two" d="M305 166l6-2 4 5-4 6-7-2Z" />
-                <path class="crumb crumb-three" d="M289 183l5-5 6 3-1 7-7 1Z" />
-                <path class="crumb crumb-four" d="M307 199l7-3 3 7-5 5-6-3Z" />
-                <path class="crumb crumb-five" d="M296 214l6-4 5 5-3 7-7-1Z" />
-                <circle class="crumb crumb-six" cx="304" cy="141" r="4.2" />
-                <circle class="crumb crumb-seven" cx="294" cy="229" r="3.4" />
-                <circle class="crumb crumb-eight" cx="310" cy="219" r="3" />
-              </g>
-            </svg>
+            <span class="fortune-paper" id="fortune-paper" aria-hidden="true"><span class="paper-fold paper-fold-left"></span><span class="paper-fold paper-fold-right"></span><span class="paper-text" id="paper-fortune"></span></span>
+            <span class="cookie-core" aria-hidden="true"></span><span class="photo-shell photo-shell-left" aria-hidden="true"></span><span class="photo-shell photo-shell-right" aria-hidden="true"></span>
+            <svg class="effects-art" viewBox="0 0 600 330" aria-hidden="true"><g class="crumb-layer"><path class="crumb crumb-one" d="M293 150l7-4 5 6-5 7-7-3Z" /><path class="crumb crumb-two" d="M305 166l6-2 4 5-4 6-7-2Z" /><path class="crumb crumb-three" d="M289 183l5-5 6 3-1 7-7 1Z" /><path class="crumb crumb-four" d="M307 199l7-3 3 7-5 5-6-3Z" /><path class="crumb crumb-five" d="M296 214l6-4 5 5-3 7-7-1Z" /><circle class="crumb crumb-six" cx="304" cy="141" r="4.2" /><circle class="crumb crumb-seven" cx="294" cy="229" r="3.4" /><circle class="crumb crumb-eight" cx="310" cy="219" r="3" /></g></svg>
           </button>
         </div>
-
         <div class="control-slot" aria-live="polite">
           <button class="open-button" id="open" type="button">НАДЛОМИТЬ <span>→</span></button>
           <p class="opening" id="opening" hidden>Печенье хрустит…</p>
@@ -77,10 +44,9 @@
           </div>
         </div>
       </section>
-
       <footer>ШУРУМ-БУРУМ <i>✦</i> СТРИТ-ФУД С НАСТРОЕНИЕМ</footer>
     </main>
     <script src="https://shurum-burum-predskazanie.vercel.app/script.js"></script>
-    <script src="/tracker.js"></script>
+    <script src="/tracker.js?v=3"></script>
   </body>
 </html>
