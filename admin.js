@@ -1,1 +1,1 @@
-(()=>{const s=document.createElement('script');s.src='/admin-v13.js?v=13';s.defer=true;document.head.appendChild(s)})();
+(()=>{const a=document.createElement('script');a.src='/admin-v13.js?v=13';a.defer=true;a.onload=()=>{const b=document.createElement('script');b.src='/admin-v14.js?v=14';b.defer=true;document.head.appendChild(b)};document.head.appendChild(a)})();
